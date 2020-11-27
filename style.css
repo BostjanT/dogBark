@@ -1,0 +1,45 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .panels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100vh;
+} */
+
+.panels {
+  display: flex;
+  height: 100vh;
+}
+
+.panels div {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.panel img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.panel img:hover {
+  cursor: pointer;
+}
+
+.stylish {
+  border-inline: 10px inset rgb(7, 250, 20);
+}
+
+.grow {
+  width: 200%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  opacity: 1;
+}
